@@ -226,25 +226,32 @@ function promedioArray(numeros) {
 
 /**
  * Ejercicio 4.3: Encontrar el mÃ¡ximo (6 puntos)
- * @param {Array<number>} numeros - Array de nÃºmeros
- * @returns {number} - El nÃºmero mÃ¡s grande del array
+ * @param {Array<1, 2, 3, 4, 5>} numeros - Array de nÃºmeros
+ * @returns {5} - El nÃºmero mÃ¡s grande del array
  */
 function encontrarMaximo(numeros) {
   // TODO: Encuentra y retorna el nÃºmero mÃ¡s grande
   // Pista: Puedes usar Math.max(...numeros) o hacerlo con un bucle
-  return 0;
+  let Maximo = Math.max(...numeros)
+  return Maximo;
 }
 
 /**
  * Ejercicio 4.4: Filtrar nÃºmeros mayores a un valor (5 puntos)
- * @param {Array<number>} numeros - Array de nÃºmeros
- * @param {number} limite - Valor lÃ­mite
- * @returns {Array<number>} - Nuevo array solo con nÃºmeros mayores al lÃ­mite
+ * @param {Array<1,2,3,4,5,6,7,8,9,10>} numeros - Array de nÃºmeros
+ * @param {5} limite - Valor lÃ­mite
+ * @returns {Array<6,7,8,9,10>} - Nuevo array solo con nÃºmeros mayores al lÃ­mite
  * Ejemplo: filtrarMayores([1, 5, 3, 8, 2], 4) debe retornar [5, 8]
  */
 function filtrarMayores(numeros, limite) {
   // TODO: Crea un nuevo array con solo los nÃºmeros mayores al lÃ­mite
   const mayores = [];
+  for (let i = 0; i < numeros.length; i++){
+      let x = numeros[i];
+      if (x > limite){
+        mayores.push(x);
+      }
+  }
   return mayores;
 }
 
