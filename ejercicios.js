@@ -192,12 +192,16 @@ function numerosPares(n) {
 
 /**
  * Ejercicio 4.1: Suma de elementos de un array (4 puntos)
- * @param {Array<number>} numeros - Array de nÃºmeros
+ * @param {sumaArray<1, 2, 3, 4, 5>} numeros - Array de nÃºmeros
  * @returns {number} - Suma de todos los elementos
  */
 function sumaArray(numeros) {
   // TODO: Suma todos los elementos del array
-  return 0;
+  let suma = 0;
+    for (let i = 0; i < numeros.length; i++){
+      suma += numeros[i];
+    }
+  return suma;
 }
 
 /**
