@@ -15,9 +15,9 @@ function miInformacion() {
   // TODO: Declara las variables nombre, edad y carrera
   // Ejemplo: const nombre = "Juan";
   
-  const nombre = "juanito";
+  const nombre = "Juan José Zapata Buenfil";
   const edad = 20;
-  const carrera = "TSU";
+  const carrera = "TSU en software";
   
   return { nombre, edad, carrera };
 }
@@ -55,37 +55,40 @@ function areaRectangulo(base, altura) {
  * Ejercicio 1.4: ConversiÃ³n de temperatura (3 puntos)
  * Convierte grados Celsius a Fahrenheit
  * FÃ³rmula: F = C * 9/5 + 32
- * @param {number} celsius - Temperatura en Celsius
- * @returns {number} - Temperatura en Fahrenheit
+ * @param {0} celsius - Temperatura en Celsius
+ * @returns {32} - Temperatura en Fahrenheit
  */
 function celsiusAFahrenheit(celsius) {
-  // TODO: Implementa la conversiÃ³n
-  return 0;
+  return celsius * 9/5 + 32; 
 }
-
 // ============================================
 // SECCIÃ“N 2: CONDICIONALES (15 puntos)
 // ============================================
 
 /**
  * Ejercicio 2.1: NÃºmero par o impar (3 puntos)
- * @param {number} numero - NÃºmero a evaluar
- * @returns {string} - "par" o "impar"
+ * @param {4} numero - NÃºmero a evaluar
+ * @returns {"par"} - "par" o "impar"
  */
 function parOImpar(numero) {
   // TODO: Usa el operador % (mÃ³dulo) para determinar si es par o impar
   // Pista: Un nÃºmero es par si numero % 2 === 0
-  return "";
+    if (numero % 2 === 0){
+
+      return "par";
+    } else return "impar";
 }
 
 /**
  * Ejercicio 2.2: CalificaciÃ³n (4 puntos)
- * @param {number} nota - Nota del 0 al 100
- * @returns {string} - "Aprobado" si nota >= 60, "Reprobado" si no
+ * @param {10} nota - Nota del 0 al 100
+ * @returns {"Aprobado"} - "Aprobado" si nota >= 60, "Reprobado" si no
  */
 function evaluarNota(nota) {
   // TODO: Implementa la lÃ³gica con if/else
-  return "";
+    if (nota >= 60){
+      return "Aprobado";
+    } else {return "Reprobado";}
 }
 
 /**
