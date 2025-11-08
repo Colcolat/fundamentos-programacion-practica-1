@@ -141,35 +141,48 @@ function factorial(n) {
 
 /**
  * Ejercicio 3.2: Suma de nÃºmeros del 1 al n (4 puntos)
- * @param {number} n - NÃºmero lÃ­mite
- * @returns {number} - Suma de 1 + 2 + 3 + ... + n
+ * @param {5} n - NÃºmero lÃ­mite
+ * @returns {15} - Suma de 1 + 2 + 3 + ... + n
  */
 function sumaHastaN(n) {
+  let suma = 0;
+  for (let i = 1; i <= n ; i++){
+    suma = suma + i;
+  }
+  return suma;
   // TODO: Usa un bucle para sumar todos los nÃºmeros desde 1 hasta n
-  return 0;
 }
 
 /**
  * Ejercicio 3.3: Tabla de multiplicar (5 puntos)
- * @param {number} numero - NÃºmero para generar su tabla
- * @returns {Array} - Array con los resultados de numero x 1 hasta numero x 10
+ * @param {3} numero - NÃºmero para generar su tabla
+ * @returns {3, 6, 9, 12, 15, 18, 21, 24, 27, 30} - Array con los resultados de numero x 1 hasta numero x 10
  * Ejemplo: tablaMultiplicar(3) debe retornar [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
  */
 function tablaMultiplicar(numero) {
-  // TODO: Genera un array con la tabla de multiplicar
+  let x = 1;
   const tabla = [];
+  for (i=1; i <= 10; i++){
+    x = numero * i;
+    tabla[i-1] = x;
+  }
   return tabla;
 }
 
 /**
  * Ejercicio 3.4: NÃºmeros pares hasta n (6 puntos)
- * @param {number} n - NÃºmero lÃ­mite
- * @returns {Array} - Array con todos los nÃºmeros pares desde 2 hasta n
+ * @param {10} n - NÃºmero lÃ­mite
+ * @returns {2, 4, 6, 8, 10} - Array con todos los nÃºmeros pares desde 2 hasta n
  * Ejemplo: numerosPares(10) debe retornar [2, 4, 6, 8, 10]
  */
 function numerosPares(n) {
   // TODO: Crea un array con todos los nÃºmeros pares hasta n
   const pares = [];
+  for (let i=2; i <= n; i++){
+    if(i % 2 === 0){
+      pares.push(i);
+    }
+  }
   return pares;
 }
 
