@@ -93,24 +93,30 @@ function evaluarNota(nota) {
 
 /**
  * Ejercicio 2.3: El mayor de tres nÃºmeros (4 puntos)
- * @param {number} a - Primer nÃºmero
- * @param {number} b - Segundo nÃºmero
- * @param {number} c - Tercer nÃºmero
- * @returns {number} - El nÃºmero mayor
+ * @param {10} a - Primer nÃºmero
+ * @param {3} b - Segundo nÃºmero
+ * @param {6} c - Tercer nÃºmero
+ * @returns {10} - El nÃºmero mayor
  */
 function mayorDeTres(a, b, c) {
   // TODO: Encuentra y retorna el mayor de los tres nÃºmeros
-  return 0;
+  return Math.max(a, b, c);
 }
 
 /**
  * Ejercicio 2.4: ClasificaciÃ³n de edad (4 puntos)
- * @param {number} edad - Edad de la persona
- * @returns {string} - "menor" (0-17), "adulto" (18-64), "mayor" (65+)
+ * @param {34} edad - Edad de la persona
+ * @returns {"adulto"} - "menor" (0-17), "adulto" (18-64), "mayor" (65+)
  */
 function clasificarEdad(edad) {
   // TODO: Implementa la clasificaciÃ³n con if/else if/else
-  return "";
+    if (edad <= 17){
+      return "menor";
+    } else if (edad < 65) {
+        return "adulto";
+      } else {
+        return "mayor";
+      }
 }
 
 // ============================================
