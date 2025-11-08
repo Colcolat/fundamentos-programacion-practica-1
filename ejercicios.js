@@ -41,13 +41,14 @@ function operacionesBasicas(a, b) {
 
 /**
  * Ejercicio 1.3: Ãrea de un rectÃ¡ngulo (2 puntos)
- * @param {number} base - Base del rectÃ¡ngulo
- * @param {number} altura - Altura del rectÃ¡ngulo
- * @returns {number} - Ãrea del rectÃ¡ngulo
+ * @param {10} base - Base del rectÃ¡ngulo
+ * @param {5} altura - Altura del rectÃ¡ngulo
+ * @returns {50} - Ãrea del rectÃ¡ngulo
  */
 function areaRectangulo(base, altura) {
   // TODO: Calcula y retorna el Ã¡rea (base * altura)
-  return 0;
+    const area = base * altura;
+  return area;
 }
 
 /**
