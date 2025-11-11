@@ -339,6 +339,9 @@ function obtenerFila(matriz, indiceFila) {
 function obtenerColumna(matriz, indiceColumna) {
   // TODO: Extrae todos los elementos de la columna indicada
   const columna = [];
+  for (let i = 0; i < matriz.length; i++) {
+    columna.push(matriz[i][indiceColumna]);
+  }
   return columna;
 }
 
