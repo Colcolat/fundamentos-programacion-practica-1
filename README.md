@@ -2,9 +2,9 @@
 
 ## 👨‍💻 Información del Estudiante
 
-- **Nombre:** [Tu nombre completo]
-- **Matrícula:** [Tu matrícula]
-- **Grupo:** [A/B/C]
+- **Nombre:** [Juan José Zapata Buenfil]
+- **Matrícula:** [SW2509044]
+- **Grupo:** [B]
 - **Cuatrimestre:** Primer Cuatrimestre
 - **Carrera:** TSU en Desarrollo e Innovación de Software
 - **Profesor:** Jorge Javier Pedrozo Romero
@@ -230,8 +230,8 @@ git log --oneline --graph --decorate
 
 ## 📧 Contacto
 
-- **Email Institucional:** [tu-correo@institucional.edu.mx]
-- **GitHub:** [@TU-USUARIO](https://github.com/TU-USUARIO)
+- **Email Institucional:** [juan.zapata@tecdesoftware.edu.mx]
+- **GitHub:** [@Colcolat](https://github.com/Colcolat)
 
 ---
 
@@ -245,7 +245,7 @@ Este proyecto es parte de las actividades académicas del **Tecnológico de Soft
 
 **⭐ Si te gustó este proyecto, dale una estrella ⭐**
 
-Hecho con 💙 por [Tu Nombre] - 2025
+Hecho con 💙 por [JJ] - 2025
 
 </div>
 
