@@ -84,7 +84,7 @@ Este repositorio contiene mi solución a la práctica de **Fundamentos de Progra
 └────────────────────────────────────────┘
 ```
 
-![Tests](../../actions/workflows/test.yml/badge.svg)
+![Tests](https://github.com/Colcolat/fundamentos-programacion/actions/workflows/test.yml/badge.svg)
 
 ---
 
