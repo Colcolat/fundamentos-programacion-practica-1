@@ -144,12 +144,11 @@ fundamentos-programacion-practica-1/
 ## 💡 Aprendizajes Clave
 
 ### Lo que más me costó
-- **Ejercicio 5.5 (Transponer Matriz)**: Entender cómo intercambiar filas por columnas requirió visualizar bien el proceso.
-- **Ejercicio 3.1 (Factorial)**: Al principio olvidé el caso base cuando n=0.
+- **Ejercicios de la sección 5**: Tuve que esperar a ver matrices en java para poder empezar a hacerlo en javascript
+- **Todo**: Como nunca vi en mi vida JavaScript tuve que "aprender" a usarlo.
 
 ### Lo que más me gustó
-- **Arrays Bidimensionales**: Ver cómo las matrices se relacionan con estructuras de datos reales como imágenes.
-- **Testing Automático**: Es increíble ver los tests correr y obtener retroalimentación inmediata.
+- **El lenguaje** Me gustó la oportunidad de aprender un poco de JavaScript pues no es tan diferente a Java por el momento y es algo que ya tenia en mente desde hace tiempo
 
 ### Técnicas aplicadas
 - Uso de `for` loops para iteraciones
@@ -223,8 +222,9 @@ git log --oneline --graph --decorate
 ## 🤝 Agradecimientos
 
 - **Profesor Jorge Javier Pedrozo Romero** por la estructura del curso y la práctica
-- **Compañeros del Grupo [A/B/C]** por el apoyo mutuo
+- **Compañeros del Grupo [B]** por el apoyo mutuo
 - **Tecnológico de Software** por la formación integral
+- **Al profe Alex de Youtube por ayudarme a recordar como multiplicar matrices**
 
 ---
 
@@ -243,7 +243,7 @@ Este proyecto es parte de las actividades académicas del **Tecnológico de Soft
 
 <div align="center">
 
-**⭐ Si te gustó este proyecto, dale una estrella ⭐**
+**⭐ Si te gustó este proyecto, dale una estrella ⭐** R: ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐ hell yeah⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
 
 Hecho con 💙 por [JJ] - 2025
 
